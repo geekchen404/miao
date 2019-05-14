@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .head{
+            background: black;
+        }
+        .head p{
+            
+            color: white;
+            width: 600px;
+            margin: auto;
+            
+        }
+        .body{
+            width: 600px;
+            margin: 15px auto;
+        }
+        .center div{
+            border: 3px solid;
+            width: 174px;
+            height: 34px;
+            margin-top: 15px;
+            background-color: #ffc0cb;
+            text-align: center;
+            line-height: 34px;
+
+            
+            
+            
+        }
+        .center div:hover{
+            background-color: red;
+        }
+        .center div:nth-child(3n+2){
+            margin-left: 210px;
+            margin-top: -40px;
+            
+            
+            
+        }
+        .center div:nth-child(3n+3){
+            margin-left: 420px;
+            margin-top: -40px;
+        }
+        
+        .link p:not(:last-child){
+            border-bottom: 1px dotted;
+        }
+        .bottom p
+        {
+            background-color: #ee82ee;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="head">
+        <p>hello world 请调整浏览器窗口大小查看效果</p>
+   </div>
+   <div class="body">
+       <p>
+            页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px页面主体宽度600px
+       </p>
+       <div class="center">
+       <div>宽180高40（包含边框）</div>
+       <div>产品</div>
+       <div>产品</div>
+       <div>水平间隙30px</div>
+       <div>产品</div>
+       <div>产品</div>
+       <div>垂直间隙15px的</div>
+       <div>产品</div>
+       <div>产品</div>
+       <div>边框宽度的3px</div>
+       <div>产品</div>
+       <div>产品</div>
+       
+
+       
+    </div>
+    <div class="link">
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+        <p>link</p>
+    </div>
+   </div>
+   <div class="bottom">
+       <p>&copy;版权所有</p>
+       <p>本页所有布局均使用块元素</p>
+   </div>
+</body>
+</html>
